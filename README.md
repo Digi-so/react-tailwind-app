@@ -1,12 +1,33 @@
-# React + Vite
+# 🧠 Task Manager + API Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React app built with Vite, JSX, and Tailwind CSS.  
+Includes task management, theme switching, and API integration.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add, delete, complete, and filter tasks
+- 📡 Fetch posts from JSONPlaceholder API
+- 🔍 Search and paginate API data
+- 🌗 Light/Dark mode using React Context
+- 🌀 Tailwind transitions and custom animations
+- 📱 Fully responsive layout
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- JSX + Tailwind CSS
+- useState, useEffect, useContext
+- LocalStorage
+- JSONPlaceholder API
+
+## 📸 Screenshots
+
+![screenshot](./src/assets/screenshot.png) <!-- Add your screenshot here -->
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
