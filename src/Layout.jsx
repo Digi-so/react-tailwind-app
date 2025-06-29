@@ -1,3 +1,4 @@
+import Layout from './Layout';
 import Navbar from './navbar';
 import Footer from './footer';
 import { Outlet, Link } from 'react-router-dom';
@@ -11,7 +12,7 @@ export default function Layout() {
         <Link to="/" className="text-blue-500 hover:underline">Home</Link>
         <Link to="/tasks" className="text-blue-500 hover:underline">Tasks</Link>
         <Link to="/api" className="text-blue-500 hover:underline">API</Link>
-      </nav>
+  </nav>
 
       <main className="flex-grow p-4">
         <Outlet />

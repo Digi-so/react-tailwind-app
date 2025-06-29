@@ -1,6 +1,6 @@
 import ApiData from './ApiData';
 import { Routes, Route } from 'react-router-dom';
-import Layout from './layout';
+import Layout from './Layout';
 
 function HomePage() {
     return (<h2 className="text-xl">welcome to home page</h2>);
