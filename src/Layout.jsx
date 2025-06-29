@@ -1,4 +1,3 @@
-import Layout from './Layout';
 import Navbar from './navbar';
 import Footer from './footer';
 import { Outlet, Link } from 'react-router-dom';
